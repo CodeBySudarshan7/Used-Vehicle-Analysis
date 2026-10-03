@@ -1,0 +1,90 @@
+# ─────────────────────────────
+# Python
+# ─────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ─────────────────────────────
+# Virtual environments
+# ─────────────────────────────
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# ─────────────────────────────
+# Jupyter Notebook
+# ─────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─────────────────────────────
+# Environment variables & secrets
+# ─────────────────────────────
+.env
+.env.local
+*.env
+.streamlit/secrets.toml
+
+# ─────────────────────────────
+# Data files (large / raw datasets)
+# ─────────────────────────────
+data/raw/*.csv
+data/processed/*.csv
+*.xlsx
+*.xls
+!data/raw/README.md
+!data/processed/README.md
+
+# ─────────────────────────────
+# Power BI
+# ─────────────────────────────
+*.pbix.bak
+~$*.pbix
+
+# ─────────────────────────────
+# Database files
+# ─────────────────────────────
+*.db
+*.sqlite3
+
+# ─────────────────────────────
+# OS files
+# ─────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─────────────────────────────
+# IDE / Editor
+# ─────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─────────────────────────────
+# Logs
+# ─────────────────────────────
+*.log
+logs/
+
+# ─────────────────────────────
+# Streamlit
+# ─────────────────────────────
+.streamlit/secrets.toml
+
+# ─────────────────────────────
+# Misc
+# ─────────────────────────────
+*.tmp
+*.bak
+.cache/
